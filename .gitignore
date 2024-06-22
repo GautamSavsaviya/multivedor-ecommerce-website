@@ -3,8 +3,8 @@
 
 # Ignore Django migration files
 # **/migrations/
-# */migrations/__pycache__/*.py
 *.pyc
+__pycache__/
 
 
 # Ignore virtual environment
