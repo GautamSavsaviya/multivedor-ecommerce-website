@@ -12,5 +12,6 @@ class VendorDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Vendor
         fields = ['id','user', 'address']
+        depth = 1
 
 
