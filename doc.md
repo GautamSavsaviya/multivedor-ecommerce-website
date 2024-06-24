@@ -79,3 +79,4 @@ Setup project and creating database models
 10. Install psycopg2-binary - pip install psycopg2-binary
 11. Install python-dotenv -  pip install python-dotenv
 12. Install django rest frameword - pip install djangorestframework
+13. Install simple JWT - pip install djangorestframework-simplejwt
