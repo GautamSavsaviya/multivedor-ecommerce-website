@@ -13,12 +13,12 @@ This is multivender ecommerce website. Customer can purchage web scripts in vari
         -   Popular Categories (According to product downloads count)
         -   Popular Projects (According to product downloads count)
         -   Popular Vendor (According to product downloads count)
-        -   Customer retings and reviews
         -   Footer
     -   All Categories list
     -   All Products list according to categories
         -   Sort according to price, latest, alphabets, views
     -   Product detail
+        -   Customer retings and reviews
     -   Checkout page
         -   PayPal
         -   RazorPay
