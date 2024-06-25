@@ -59,8 +59,15 @@ This is multivender ecommerce website. Customer can purchage web scripts in vari
     -   Manage Categories
     -   Manage Orders
 
-=====================================================================
-=====================================================================
+# Technologies (2024)
+-------
+-   Python 3.12
+-   Django 5.0
+-   NodeJs 20.15
+-   ReactJs 18.2
+-   Bootstrap 5.3
+-   PostgreSQL 16.3
+-   pgAdmin 4
 
 
 
