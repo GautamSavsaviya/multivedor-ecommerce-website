@@ -47,6 +47,17 @@ class Customer(models.Model):
     def __str__(self):
         return self.user.username
 
+class CustomerAddress(models.Model):
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, related_name='customer_addresses')
+    address = models.TextField()
+    default = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.address
+
+    class Meta:
+        verbose_name = "Customer Address"
+        verbose_name_plural = "Customer Addresses"
 
 # Order Model
 class Order(models.Model):

@@ -1,5 +1,5 @@
 from . import serializers
-from rest_framework import generics, permissions
+from rest_framework import generics, permissions, viewsets
 from . import models
 
 # Create your views here.
@@ -65,3 +65,6 @@ class OrderDetail(generics.ListCreateAPIView):
         return order.order_items.all()
 
 
+class CustomerAddress(viewsets.ModelViewSet):
+    serializer_class = serializers.CustomerAddressSerializer
+    queryset = models.CustomerAddress.objects.all()
