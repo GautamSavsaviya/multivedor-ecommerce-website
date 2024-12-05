@@ -13,12 +13,12 @@ This is multivender ecommerce website. Customer can purchage web scripts in vari
         -   Popular Categories (According to product downloads count)
         -   Popular Projects (According to product downloads count)
         -   Popular Vendor (According to product downloads count)
-        -   Customer retings and reviews
         -   Footer
     -   All Categories list
     -   All Products list according to categories
         -   Sort according to price, latest, alphabets, views
     -   Product detail
+        -   Customer retings and reviews
     -   Checkout page
         -   PayPal
         -   RazorPay
@@ -59,8 +59,15 @@ This is multivender ecommerce website. Customer can purchage web scripts in vari
     -   Manage Categories
     -   Manage Orders
 
-=====================================================================
-=====================================================================
+# Technologies (2024)
+-------
+-   Python 3.12
+-   Django 5.0
+-   NodeJs 20.15
+-   ReactJs 18.2
+-   Bootstrap 5.3
+-   PostgreSQL 16.3
+-   pgAdmin 4
 
 
 
@@ -79,3 +86,4 @@ Setup project and creating database models
 10. Install psycopg2-binary - pip install psycopg2-binary
 11. Install python-dotenv -  pip install python-dotenv
 12. Install django rest frameword - pip install djangorestframework
+13. Install simple JWT - pip install djangorestframework-simplejwt
